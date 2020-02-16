@@ -6,4 +6,4 @@ before_install:
     - docker build -t lombaardj/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run lombaardj/docker-react npm run test -- --coverage
+    - docker run -e CI=true lombaardj/docker-react npm run test -- --coverage
