@@ -37,6 +37,7 @@
     "postcss": "^8.4.31",
     "minimatch": "^10.2.1",
     "bfj": "^9.0.0",
-    "serialize-javascript": "^7.0.3"
+    "serialize-javascript": "^7.0.3",
+    "@tootallnate/once": "^3.0.1"
   }
 }
